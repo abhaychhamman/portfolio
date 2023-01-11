@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-
+import { HomePage } from './component/HomePage';
+import { Basic } from './component/Basic';
 function App() {
   return (
     <>
-    
-        My Name is Abhay kumar singh 
+          <Basic  />
     </>
   );
 }
