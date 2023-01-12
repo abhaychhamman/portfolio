@@ -7,6 +7,8 @@ export function Basic() {
 
       <nav>
         <div className="navleft item"><a href="/">Abhay Kuamr Singh</a></div> 
+
+        <div className="hamburger">MENU</div>
         <div className="navright item">
 
             <div className="home navlinks"><a href="home">home</a> </div>

@@ -143,25 +143,56 @@ embed{
 .largefont{
 
     border-bottom: 2px solid black;
-    font-size: 75px;
+    font-size: 70px;
 }
 
- @media (max-width:500px) {
+.hamburger{
+    display: none;
+}
+
+
+ @media (max-width:1130px) {
     
+ 
+    .abhayresume h2{
 
-    .navleft{
-        font-weight: 600;
-        font-size:16px;
-     }
-     .abhayresume h2{
-
-        font-size: 14px;
+        font-size: 18px;
        }
-       
-       
+       .smallfont{
 
+        font-size: 34px;
+    }
+
+       .largefont{
+    
+        
+        font-size: 50px;
+    }
+       
 
  }
+ @media (max-width:800px) {
+    
+ 
+    .abhayresume h2{
+
+        font-size: 18px;
+       }
+
+       .smallfont{
+
+        font-size: 27px;
+    }
+
+       .largefont{
+    
+        
+        font-size: 45px;
+    }
+       
+
+ }
+
  @media (max-width:700px) {
     
 
@@ -178,31 +209,31 @@ embed{
         height: 450px;
     
     }
-  
 
- }
- @media (max-width:800px) {
+    .smallfont{
+
+        font-size: 22px;
+    }
+    .largefont{
     
- 
-    .abhayresume h2{
-
-        font-size: 18px;
-       }
-       
+        border-bottom: 2px solid black;
+        font-size: 40px;
+    }
+  
 
  }
 
  
  @media (max-width:600px )  {
     
-
-    .navright{
-         
-        font-size:14px;
-     }
-     .details{
+    nav{
+        height: fit-content;
+        width: 85%;
+    margin: 15px auto;
+    }
+ .details{
      grid-template-columns: none;
-     grid-template-rows: 1fr 1fr;
+     grid-template-rows: 1fr 2fr;
      margin-top: 0px;
     
      gap: 31px;
@@ -221,6 +252,21 @@ embed{
        
     }
 
+     .navright{
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: none;
+        background: blue;
+        
+        
+        width: fit-content;
+        position: absolute;
+        right: 0%;
+        top: 5%;
+         
+        font-size:14px;
+        margin: auto;
+            
+     }
         
     embed{
 
@@ -229,6 +275,42 @@ embed{
     
     }
 
+    .navlinks{
+        padding: 5px 51px;
+    }
+
+    .hamburger{
+        display: initial;
+        
+    text-align: end;
+    padding: 14px;
+
+    }
     
+
+ }
+
+ 
+ @media (max-width:500px) {
+    
+
+    .navleft{
+        font-weight: 600;
+        font-size:16px;
+     }
+     .abhayresume h2{
+
+        font-size: 14px;
+       }
+       
+       
+       .smallfont{
+
+        font-size: 20px;
+    }
+    .largefont{
+      
+        font-size: 35px;
+    }
 
  }
