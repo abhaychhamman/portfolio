@@ -34,8 +34,10 @@ export function Basic() {
 
         </section>
 
+        <embed src="https://docs.google.com/document/d/1qHxoZgeep9fcZ-_xBfUS5qeQsoH6zR7lgAwm03UN5Wk/edit?usp=sharing" width="800px" height="1200px" type='application/pdf' />
 
-      
+        <iframe src="">
+</iframe>
       </>
     );
   }
