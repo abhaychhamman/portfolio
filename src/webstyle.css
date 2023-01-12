@@ -13,6 +13,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+    backdrop-filter: blur(2px);  
     margin-bottom: 40px;
     height: auto;
     /* background-color: #f88888; */
@@ -97,10 +98,52 @@ nav{
      
     
 }
+.detailsleft p{ 
+    margin: 19px;
+    color: currentColor;
+    text-transform: capitalize;
+    font-style: oblique;
+     
+    
+}
 .detailsright{
     display: flex;
     justify-content: end;
    
+}
+
+embed{
+
+    width: clamp(280px,70vw,800px);
+    height: 600px;
+    margin: auto !important;
+}
+
+.abhayresume{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #117f8d;
+    text-shadow: 1px 1px 1px blue;
+    margin-top: 50px;
+}
+.abhayresume h2{
+
+ font-size: 20px;
+ text-align: center;
+}
+
+
+.smallfont{
+
+    font-size: 40px;
+}
+.largefont{
+
+    border-bottom: 2px solid black;
+    font-size: 75px;
 }
 
  @media (max-width:500px) {
@@ -110,7 +153,42 @@ nav{
         font-weight: 600;
         font-size:16px;
      }
+     .abhayresume h2{
 
+        font-size: 14px;
+       }
+       
+       
+
+
+ }
+ @media (max-width:700px) {
+    
+
+    .abhayresume h2{
+
+        font-size: 16px;
+       }
+       
+    
+        
+       embed{
+
+        
+        height: 450px;
+    
+    }
+  
+
+ }
+ @media (max-width:800px) {
+    
+ 
+    .abhayresume h2{
+
+        font-size: 18px;
+       }
+       
 
  }
 
@@ -142,6 +220,15 @@ nav{
         justify-content: center;
        
     }
+
+        
+    embed{
+
+        
+        height: 350px;
+    
+    }
+
     
 
  }

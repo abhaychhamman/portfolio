@@ -1,5 +1,6 @@
  
 import abhayImg from './../abhayImg.jpg';
+import abhayresume from './../abhay resume.pdf';
 export function Basic() {
     return (
       <>
@@ -22,9 +23,9 @@ export function Basic() {
         <section className="details">
 
         <div className="detailsleft">
-            <h1>details</h1>
-            <h4>Lorem ipsum dolor sit amet consectetur a aut eius repellendus porro quasi pr earum debitise quas, architecto voluptates delectus natus reiciendis!</h4>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi error animi similique impedit inventore? Qui fugit cumque sapiente similique molestias corporis dolorum suscipit voluptate veniam consectetur perferendis beatae, molestiae quas fugiat saepe impedit nulla.</p>
+            <h1 className='smallfont'>I am a Full Stack </h1>
+            <h1 className='largefont'>Web Developer </h1>
+            <p>my experties in main areas CSS,HTML ,JAVASCRIPT,PYTHON ,DJANGO ,REACT ,AJAX,JQUERY</p>
              </div> 
         <div className="detailsright">
             <img src={abhayImg} alt=""   />
@@ -34,10 +35,13 @@ export function Basic() {
 
         </section>
 
-        <embed src="https://docs.google.com/document/d/1qHxoZgeep9fcZ-_xBfUS5qeQsoH6zR7lgAwm03UN5Wk/edit?usp=sharing" width="800px" height="1200px" type='application/pdf' />
+<div className='abhayresume'>
 
-        <iframe src="">
-</iframe>
+        <h2 >My resume and click download button for download</h2>
+        <embed src={abhayresume} width="800px"  type='application/pdf' />
+</div>
+
+       
       </>
     );
   }
