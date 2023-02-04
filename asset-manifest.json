@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5ce23468.css",
-    "main.js": "/portfolio/static/js/main.e61d2fd3.js",
+    "main.js": "/portfolio/static/js/main.4fdffefe.js",
     "static/js/496.eca39582.chunk.js": "/portfolio/static/js/496.eca39582.chunk.js",
     "static/media/bg.jpg": "/portfolio/static/media/bg.eb2b72b7a8409ddc45ff.jpg",
-    "static/media/abhay resume.pdf": "/portfolio/static/media/abhay resume.8093369e162adbcb3aeb.pdf",
+    "static/media/abhay resume.pdf": "/portfolio/static/media/abhay resume.f2a1f9db3e5e86fa6f91.pdf",
     "static/media/abhayImg.jpg": "/portfolio/static/media/abhayImg.6bf247d5b015ea4c2c52.jpg",
     "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/portfolio/index.html",
     "main.5ce23468.css.map": "/portfolio/static/css/main.5ce23468.css.map",
-    "main.e61d2fd3.js.map": "/portfolio/static/js/main.e61d2fd3.js.map",
+    "main.4fdffefe.js.map": "/portfolio/static/js/main.4fdffefe.js.map",
     "496.eca39582.chunk.js.map": "/portfolio/static/js/496.eca39582.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ce23468.css",
-    "static/js/main.e61d2fd3.js"
+    "static/js/main.4fdffefe.js"
   ]
 }
