@@ -257,7 +257,7 @@ embed{
         grid-template-columns: none;
         background: blue;
         
-        
+        display: none;
         width: fit-content;
         position: absolute;
         right: 0%;
